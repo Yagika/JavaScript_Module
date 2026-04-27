@@ -1,8 +1,36 @@
 // 1. Створити пустий масив та :
 //     a. заповнити його 50 парними числами за допомоги циклу.
+let arr=[];
+let i=0;
+while(arr.length<50) {
+    i+=2;
+    arr.push(i)
+}
+console.log(arr);
 //     b. заповнити його 50 непарними числами за допомоги циклу.
+let arr1=[];
+let k=1;
+while(arr1.length<50) {
+    arr1.push(k)
+    k+=2;
+}
+console.log(arr1);
 //     c. Заповнити масив 20ма рандомними числами. (Google: Generate random number JS)
+let arr2=[];
+let j=0;
+while(arr2.length<20) {
+    arr2.push(Math.floor(Math.random() * 100) + 1)
+    j++;
+}
+console.log(arr2);
 // d. Заповнити масив 20ма рандомними чисалами в діапазоні від 8 до 732 (Google: Generate random number JS)
+let arr3=[];
+let p=0;
+while(arr3.length<20) {
+    arr3.push(Math.floor(Math.random() * 725) + 8)
+    p++;
+}
+console.log(arr3);
 // 2. Вивести за допомогою console.log кожен третій елемен
 // 3. Вивести за допомогою console.log кожен третій елемен тільки якщо цей елемент є парним.
 // 4. Вивести за допомогою console.log кожен третій елемен тільки якщо цей елемент є парним та записати їх в новий масив
