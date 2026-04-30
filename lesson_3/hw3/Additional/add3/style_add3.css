@@ -1,0 +1,25 @@
+.wrap {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+    padding: 20px;
+}
+
+.post-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #e8aeff;
+    transition: 0.3s;
+}
+
+.post-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.post-card p {
+    margin-top: 10px;
+    border-top: 1px solid #772e9c;
+    padding-top: 10px;
+}
